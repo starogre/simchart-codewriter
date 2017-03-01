@@ -1,0 +1,7 @@
+c:\users\jschubbe\documents\visual studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\bin\Debug\CodeWriterSimChart.exe
+c:\users\jschubbe\documents\visual studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\bin\Debug\CodeWriterSimChart.pdb
+c:\users\jschubbe\documents\visual studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\obj\x86\Debug\CodeWriterSimChart.exe
+c:\users\jschubbe\documents\visual studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\obj\x86\Debug\CodeWriterSimChart.pdb
+C:\Users\jschubbe\Documents\Visual Studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\obj\x86\Debug\CodeWriterSimChart.csprojResolveAssemblyReference.cache
+D:\Transfer\Documents\Visual Studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\obj\x86\Debug\CodeWriterSimChart.exe
+D:\Transfer\Documents\Visual Studio 2010\Projects\CodeWriterSimChart\CodeWriterSimChart\obj\x86\Debug\CodeWriterSimChart.pdb

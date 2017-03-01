@@ -1,0 +1,778 @@
+AdmissionHistory
+AdmittedFrom
+ArrivedBy
+InformationReceivedFrom
+CardiovascularProblems
+VisualImpairment
+VisualImpairment1
+MusculoskeletalProblems
+OtherHealthHistory
+WillFamilyOrOtherBeStayingWithYouDuringHospitalization
+WithWhomShouldWeCommunicateWhileYouAreHospitalized
+HowLongHasTheProblemExisted
+WhyWereYouAdmittedToTheHospital
+CanYouRead
+CanYouWrite
+DoYouHaveBarriersToLearning
+PrimaryLanguage
+DoYouHaveALivingWill
+IsACopyOfYourLivingWillAvailable
+HowDoYouPreferInstructions
+DoYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems
+DoYouTakeAnyMedicationsVitaminsOrSupplementsAtHome
+InformationReceivedFrom
+TetanusDiphtheriaPertusis
+DateReceivedA
+DateReceivedB
+DateReceivedC
+DateReceivedD
+DateReceivedE
+DateReceivedF
+DateReceivedG
+DateReceivedH
+DateReceivedI
+DateReceivedJ
+HumanPapillomavirus
+Varicella
+Zoster
+MeaslesMumpsRubella
+Influenza
+Pneumococcal
+HepatitisA
+HepatitisB
+Meningococcal
+StreetRecreationalExcessivePrescriptionDrugUse
+DoYouLiveWithASmoker
+SmokerStatus
+DoYouDrinkAlcohol
+HowOftenDoYouDrink
+DoesPatientHaveOrdersForPhysicalTherapy
+DoesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT
+ListBox25
+Grooming
+HowDoYouFeelRightNow
+OverThePast2WeeksHaveYouFeltDownDepressedOrHopeless
+OverThePast2WeeksHaveYouHadLittleInterestInDoingThings
+OrientedToTime
+OrientedToPerson
+OrientedToPlace
+Recall5ObjectNames3MinutesAfterMention
+CanRecallPlaceOfBirth
+CanRecallYearBorn
+CanRecallMothersMaidenName
+ABirdInTheHandIsWorthTwoInTheBush
+ARollingStoneGathersNoMoss
+CanCorrectlySayTheDaysOfTheWeek
+CanCorrectlySpellWorldBackwards
+HowWellIsPatientMeetingSocialAndFamilyObligations
+WhatAreYourPlansForTheFuture
+CanFollowSimpleDirections
+CanFollowComplexDirections
+CanCommunicateVerbally
+UnexplainedWeightLossGreaterThan10lbInTheLast6Months
+LossOfAppetiteFor7DaysOrMore
+ChewingOrSwallowingDifficulties
+NauseaVomitingOrDiarrheaForMoreThan7Days
+TubeFeedingOrTotalParenteralNutrition
+DietInformationRequestedByPatient
+TotalScoreA
+CachexiaOrPhysicalSignsOfWeightLoss
+HeadOrNeckOrMouthSurgery
+PressureUlcerOrOpenWoundsOrDrainingFistula
+TubeFeedingOrTotalParenteralNutrition
+PolytraumaOrMultipleFracture
+FeverInfectionSepsis
+TotalScoreB
+FoodPreferences
+DietBeforeHospitalizationIncludingSnacks
+MaritalOrPartnerStatus
+FamilyProcesses
+CaregiverRole
+RolePerformance
+SocialInteractions
+WillYouHaveAssistanceAfterDischarge
+IsPatientACandidateForNursingHomeCare
+IsPatientHomelessOrUnidentified
+HaveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse
+AreYouAfraidOfYourPartnerOrSomeoneElse
+HaveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear
+IsThereAnyPersonWhoThreatensYouOrHurtsYou
+AreTherePhysicalInjuriesConsistentWithThePatientsHistory
+HaveYouBeenHospitalizedMoreThanTwiceInThePast2Months
+DoYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds
+DoYouCurrentlyUseOxygenOrMedicalEquipmentAtHome
+WasPatientAdmittedFromAnotherHospitalOrFacility
+DoYouCurrentlyHaveAHomeHealthNurseVisitingYou
+DoYouAnticipateTheNeedForSelfInjectionsAtHome
+DoYouHaveAnyDifficultyObtainingYourMedications
+DoYouAnticipateTheNeedForHealthServicesOrMedicalEquipment
+AreThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital
+DoYouWantClergyToVisitYouWhileYouAreInTheHospital
+AreYouCurrentlyExperiencingPain
+HasThePatientHadPainInThePastThreeWeeks
+IntensityPainScore
+DoYouHavePainNow
+LocationOfPain
+IntensityOfPain
+QualityOfPain
+PainCare
+VerifiedOrganDonationInAdmissionPacket
+VerifiedConsentToTreatInAdmissionPacket
+VerifiedLivingWillInAdmissionPacket
+InstructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures
+InstructedOnA
+InstructedOnB
+InstructedOnC
+InstructedOnD
+InformationGivenTo
+BraceletsPlacedOnPatient
+/////
+C# public variables
+/////
+public string m_admittedFrom;
+public string m_arrivedBy;
+public string m_informationReceivedFrom;
+public string m_cardiovascularProblems;
+public string m_visualImpairment;
+public string m_visualImpairment1;
+public string m_musculoskeletalProblems;
+public string m_otherHealthHistory;
+public string m_willFamilyOrOtherBeStayingWithYouDuringHospitalization;
+public string m_withWhomShouldWeCommunicateWhileYouAreHospitalized;
+public string m_howLongHasTheProblemExisted;
+public string m_whyWereYouAdmittedToTheHospital;
+public string m_canYouRead;
+public string m_canYouWrite;
+public string m_doYouHaveBarriersToLearning;
+public string m_primaryLanguage;
+public string m_doYouHaveALivingWill;
+public string m_isACopyOfYourLivingWillAvailable;
+public string m_howDoYouPreferInstructions;
+public string m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems;
+public string m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHome;
+public string m_informationReceivedFrom;
+public string m_tetanusDiphtheriaPertusis;
+public string m_dateReceivedA;
+public string m_dateReceivedB;
+public string m_dateReceivedC;
+public string m_dateReceivedD;
+public string m_dateReceivedE;
+public string m_dateReceivedF;
+public string m_dateReceivedG;
+public string m_dateReceivedH;
+public string m_dateReceivedI;
+public string m_dateReceivedJ;
+public string m_humanPapillomavirus;
+public string m_varicella;
+public string m_zoster;
+public string m_measlesMumpsRubella;
+public string m_influenza;
+public string m_pneumococcal;
+public string m_hepatitisA;
+public string m_hepatitisB;
+public string m_meningococcal;
+public string m_streetRecreationalExcessivePrescriptionDrugUse;
+public string m_doYouLiveWithASmoker;
+public string m_smokerStatus;
+public string m_doYouDrinkAlcohol;
+public string m_howOftenDoYouDrink;
+public string m_doesPatientHaveOrdersForPhysicalTherapy;
+public string m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT;
+public string m_listBox25;
+public string m_grooming;
+public string m_howDoYouFeelRightNow;
+public string m_overThePast2WeeksHaveYouFeltDownDepressedOrHopeless;
+public string m_overThePast2WeeksHaveYouHadLittleInterestInDoingThings;
+public string m_orientedToTime;
+public string m_orientedToPerson;
+public string m_orientedToPlace;
+public string m_recall5ObjectNames3MinutesAfterMention;
+public string m_canRecallPlaceOfBirth;
+public string m_canRecallYearBorn;
+public string m_canRecallMothersMaidenName;
+public string m_aBirdInTheHandIsWorthTwoInTheBush;
+public string m_aRollingStoneGathersNoMoss;
+public string m_canCorrectlySayTheDaysOfTheWeek;
+public string m_canCorrectlySpellWorldBackwards;
+public string m_howWellIsPatientMeetingSocialAndFamilyObligations;
+public string m_whatAreYourPlansForTheFuture;
+public string m_canFollowSimpleDirections;
+public string m_canFollowComplexDirections;
+public string m_canCommunicateVerbally;
+public string m_unexplainedWeightLossGreaterThan10lbInTheLast6Months;
+public string m_lossOfAppetiteFor7DaysOrMore;
+public string m_chewingOrSwallowingDifficulties;
+public string m_nauseaVomitingOrDiarrheaForMoreThan7Days;
+public string m_tubeFeedingOrTotalParenteralNutrition;
+public string m_dietInformationRequestedByPatient;
+public string m_totalScoreA;
+public string m_cachexiaOrPhysicalSignsOfWeightLoss;
+public string m_headOrNeckOrMouthSurgery;
+public string m_pressureUlcerOrOpenWoundsOrDrainingFistula;
+public string m_tubeFeedingOrTotalParenteralNutrition;
+public string m_polytraumaOrMultipleFracture;
+public string m_feverInfectionSepsis;
+public string m_totalScoreB;
+public string m_foodPreferences;
+public string m_dietBeforeHospitalizationIncludingSnacks;
+public string m_maritalOrPartnerStatus;
+public string m_familyProcesses;
+public string m_caregiverRole;
+public string m_rolePerformance;
+public string m_socialInteractions;
+public string m_willYouHaveAssistanceAfterDischarge;
+public string m_isPatientACandidateForNursingHomeCare;
+public string m_isPatientHomelessOrUnidentified;
+public string m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse;
+public string m_areYouAfraidOfYourPartnerOrSomeoneElse;
+public string m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear;
+public string m_isThereAnyPersonWhoThreatensYouOrHurtsYou;
+public string m_areTherePhysicalInjuriesConsistentWithThePatientsHistory;
+public string m_haveYouBeenHospitalizedMoreThanTwiceInThePast2Months;
+public string m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds;
+public string m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHome;
+public string m_wasPatientAdmittedFromAnotherHospitalOrFacility;
+public string m_doYouCurrentlyHaveAHomeHealthNurseVisitingYou;
+public string m_doYouAnticipateTheNeedForSelfInjectionsAtHome;
+public string m_doYouHaveAnyDifficultyObtainingYourMedications;
+public string m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipment;
+public string m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital;
+public string m_doYouWantClergyToVisitYouWhileYouAreInTheHospital;
+public string m_areYouCurrentlyExperiencingPain;
+public string m_hasThePatientHadPainInThePastThreeWeeks;
+public string m_intensityPainScore;
+public string m_doYouHavePainNow;
+public string m_locationOfPain;
+public string m_intensityOfPain;
+public string m_qualityOfPain;
+public string m_painCare;
+public string m_verifiedOrganDonationInAdmissionPacket;
+public string m_verifiedConsentToTreatInAdmissionPacket;
+public string m_verifiedLivingWillInAdmissionPacket;
+public string m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures;
+public string m_instructedOnA;
+public string m_instructedOnB;
+public string m_instructedOnC;
+public string m_instructedOnD;
+public string m_informationGivenTo;
+public string m_braceletsPlacedOnPatient;
+/////
+C# get text node code
+/////
+m_admittedFrom = GetTextNode("AdmissionHistory/insertXMLPathHere/AdmittedFrom", element);
+m_arrivedBy = GetTextNode("AdmissionHistory/insertXMLPathHere/ArrivedBy", element);
+m_informationReceivedFrom = GetTextNode("AdmissionHistory/insertXMLPathHere/InformationReceivedFrom", element);
+m_cardiovascularProblems = GetTextNode("AdmissionHistory/insertXMLPathHere/CardiovascularProblems", element);
+m_visualImpairment = GetTextNode("AdmissionHistory/insertXMLPathHere/VisualImpairment", element);
+m_visualImpairment1 = GetTextNode("AdmissionHistory/insertXMLPathHere/VisualImpairment1", element);
+m_musculoskeletalProblems = GetTextNode("AdmissionHistory/insertXMLPathHere/MusculoskeletalProblems", element);
+m_otherHealthHistory = GetTextNode("AdmissionHistory/insertXMLPathHere/OtherHealthHistory", element);
+m_willFamilyOrOtherBeStayingWithYouDuringHospitalization = GetTextNode("AdmissionHistory/insertXMLPathHere/WillFamilyOrOtherBeStayingWithYouDuringHospitalization", element);
+m_withWhomShouldWeCommunicateWhileYouAreHospitalized = GetTextNode("AdmissionHistory/insertXMLPathHere/WithWhomShouldWeCommunicateWhileYouAreHospitalized", element);
+m_howLongHasTheProblemExisted = GetTextNode("AdmissionHistory/insertXMLPathHere/HowLongHasTheProblemExisted", element);
+m_whyWereYouAdmittedToTheHospital = GetTextNode("AdmissionHistory/insertXMLPathHere/WhyWereYouAdmittedToTheHospital", element);
+m_canYouRead = GetTextNode("AdmissionHistory/insertXMLPathHere/CanYouRead", element);
+m_canYouWrite = GetTextNode("AdmissionHistory/insertXMLPathHere/CanYouWrite", element);
+m_doYouHaveBarriersToLearning = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouHaveBarriersToLearning", element);
+m_primaryLanguage = GetTextNode("AdmissionHistory/insertXMLPathHere/PrimaryLanguage", element);
+m_doYouHaveALivingWill = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouHaveALivingWill", element);
+m_isACopyOfYourLivingWillAvailable = GetTextNode("AdmissionHistory/insertXMLPathHere/IsACopyOfYourLivingWillAvailable", element);
+m_howDoYouPreferInstructions = GetTextNode("AdmissionHistory/insertXMLPathHere/HowDoYouPreferInstructions", element);
+m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems", element);
+m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHome = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouTakeAnyMedicationsVitaminsOrSupplementsAtHome", element);
+m_informationReceivedFrom = GetTextNode("AdmissionHistory/insertXMLPathHere/InformationReceivedFrom", element);
+m_tetanusDiphtheriaPertusis = GetTextNode("AdmissionHistory/insertXMLPathHere/TetanusDiphtheriaPertusis", element);
+m_dateReceivedA = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedA", element);
+m_dateReceivedB = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedB", element);
+m_dateReceivedC = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedC", element);
+m_dateReceivedD = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedD", element);
+m_dateReceivedE = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedE", element);
+m_dateReceivedF = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedF", element);
+m_dateReceivedG = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedG", element);
+m_dateReceivedH = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedH", element);
+m_dateReceivedI = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedI", element);
+m_dateReceivedJ = GetTextNode("AdmissionHistory/insertXMLPathHere/DateReceivedJ", element);
+m_humanPapillomavirus = GetTextNode("AdmissionHistory/insertXMLPathHere/HumanPapillomavirus", element);
+m_varicella = GetTextNode("AdmissionHistory/insertXMLPathHere/Varicella", element);
+m_zoster = GetTextNode("AdmissionHistory/insertXMLPathHere/Zoster", element);
+m_measlesMumpsRubella = GetTextNode("AdmissionHistory/insertXMLPathHere/MeaslesMumpsRubella", element);
+m_influenza = GetTextNode("AdmissionHistory/insertXMLPathHere/Influenza", element);
+m_pneumococcal = GetTextNode("AdmissionHistory/insertXMLPathHere/Pneumococcal", element);
+m_hepatitisA = GetTextNode("AdmissionHistory/insertXMLPathHere/HepatitisA", element);
+m_hepatitisB = GetTextNode("AdmissionHistory/insertXMLPathHere/HepatitisB", element);
+m_meningococcal = GetTextNode("AdmissionHistory/insertXMLPathHere/Meningococcal", element);
+m_streetRecreationalExcessivePrescriptionDrugUse = GetTextNode("AdmissionHistory/insertXMLPathHere/StreetRecreationalExcessivePrescriptionDrugUse", element);
+m_doYouLiveWithASmoker = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouLiveWithASmoker", element);
+m_smokerStatus = GetTextNode("AdmissionHistory/insertXMLPathHere/SmokerStatus", element);
+m_doYouDrinkAlcohol = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouDrinkAlcohol", element);
+m_howOftenDoYouDrink = GetTextNode("AdmissionHistory/insertXMLPathHere/HowOftenDoYouDrink", element);
+m_doesPatientHaveOrdersForPhysicalTherapy = GetTextNode("AdmissionHistory/insertXMLPathHere/DoesPatientHaveOrdersForPhysicalTherapy", element);
+m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT = GetTextNode("AdmissionHistory/insertXMLPathHere/DoesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT", element);
+m_listBox25 = GetTextNode("AdmissionHistory/insertXMLPathHere/ListBox25", element);
+m_grooming = GetTextNode("AdmissionHistory/insertXMLPathHere/Grooming", element);
+m_howDoYouFeelRightNow = GetTextNode("AdmissionHistory/insertXMLPathHere/HowDoYouFeelRightNow", element);
+m_overThePast2WeeksHaveYouFeltDownDepressedOrHopeless = GetTextNode("AdmissionHistory/insertXMLPathHere/OverThePast2WeeksHaveYouFeltDownDepressedOrHopeless", element);
+m_overThePast2WeeksHaveYouHadLittleInterestInDoingThings = GetTextNode("AdmissionHistory/insertXMLPathHere/OverThePast2WeeksHaveYouHadLittleInterestInDoingThings", element);
+m_orientedToTime = GetTextNode("AdmissionHistory/insertXMLPathHere/OrientedToTime", element);
+m_orientedToPerson = GetTextNode("AdmissionHistory/insertXMLPathHere/OrientedToPerson", element);
+m_orientedToPlace = GetTextNode("AdmissionHistory/insertXMLPathHere/OrientedToPlace", element);
+m_recall5ObjectNames3MinutesAfterMention = GetTextNode("AdmissionHistory/insertXMLPathHere/Recall5ObjectNames3MinutesAfterMention", element);
+m_canRecallPlaceOfBirth = GetTextNode("AdmissionHistory/insertXMLPathHere/CanRecallPlaceOfBirth", element);
+m_canRecallYearBorn = GetTextNode("AdmissionHistory/insertXMLPathHere/CanRecallYearBorn", element);
+m_canRecallMothersMaidenName = GetTextNode("AdmissionHistory/insertXMLPathHere/CanRecallMothersMaidenName", element);
+m_aBirdInTheHandIsWorthTwoInTheBush = GetTextNode("AdmissionHistory/insertXMLPathHere/ABirdInTheHandIsWorthTwoInTheBush", element);
+m_aRollingStoneGathersNoMoss = GetTextNode("AdmissionHistory/insertXMLPathHere/ARollingStoneGathersNoMoss", element);
+m_canCorrectlySayTheDaysOfTheWeek = GetTextNode("AdmissionHistory/insertXMLPathHere/CanCorrectlySayTheDaysOfTheWeek", element);
+m_canCorrectlySpellWorldBackwards = GetTextNode("AdmissionHistory/insertXMLPathHere/CanCorrectlySpellWorldBackwards", element);
+m_howWellIsPatientMeetingSocialAndFamilyObligations = GetTextNode("AdmissionHistory/insertXMLPathHere/HowWellIsPatientMeetingSocialAndFamilyObligations", element);
+m_whatAreYourPlansForTheFuture = GetTextNode("AdmissionHistory/insertXMLPathHere/WhatAreYourPlansForTheFuture", element);
+m_canFollowSimpleDirections = GetTextNode("AdmissionHistory/insertXMLPathHere/CanFollowSimpleDirections", element);
+m_canFollowComplexDirections = GetTextNode("AdmissionHistory/insertXMLPathHere/CanFollowComplexDirections", element);
+m_canCommunicateVerbally = GetTextNode("AdmissionHistory/insertXMLPathHere/CanCommunicateVerbally", element);
+m_unexplainedWeightLossGreaterThan10lbInTheLast6Months = GetTextNode("AdmissionHistory/insertXMLPathHere/UnexplainedWeightLossGreaterThan10lbInTheLast6Months", element);
+m_lossOfAppetiteFor7DaysOrMore = GetTextNode("AdmissionHistory/insertXMLPathHere/LossOfAppetiteFor7DaysOrMore", element);
+m_chewingOrSwallowingDifficulties = GetTextNode("AdmissionHistory/insertXMLPathHere/ChewingOrSwallowingDifficulties", element);
+m_nauseaVomitingOrDiarrheaForMoreThan7Days = GetTextNode("AdmissionHistory/insertXMLPathHere/NauseaVomitingOrDiarrheaForMoreThan7Days", element);
+m_tubeFeedingOrTotalParenteralNutrition = GetTextNode("AdmissionHistory/insertXMLPathHere/TubeFeedingOrTotalParenteralNutrition", element);
+m_dietInformationRequestedByPatient = GetTextNode("AdmissionHistory/insertXMLPathHere/DietInformationRequestedByPatient", element);
+m_totalScoreA = GetTextNode("AdmissionHistory/insertXMLPathHere/TotalScoreA", element);
+m_cachexiaOrPhysicalSignsOfWeightLoss = GetTextNode("AdmissionHistory/insertXMLPathHere/CachexiaOrPhysicalSignsOfWeightLoss", element);
+m_headOrNeckOrMouthSurgery = GetTextNode("AdmissionHistory/insertXMLPathHere/HeadOrNeckOrMouthSurgery", element);
+m_pressureUlcerOrOpenWoundsOrDrainingFistula = GetTextNode("AdmissionHistory/insertXMLPathHere/PressureUlcerOrOpenWoundsOrDrainingFistula", element);
+m_tubeFeedingOrTotalParenteralNutrition = GetTextNode("AdmissionHistory/insertXMLPathHere/TubeFeedingOrTotalParenteralNutrition", element);
+m_polytraumaOrMultipleFracture = GetTextNode("AdmissionHistory/insertXMLPathHere/PolytraumaOrMultipleFracture", element);
+m_feverInfectionSepsis = GetTextNode("AdmissionHistory/insertXMLPathHere/FeverInfectionSepsis", element);
+m_totalScoreB = GetTextNode("AdmissionHistory/insertXMLPathHere/TotalScoreB", element);
+m_foodPreferences = GetTextNode("AdmissionHistory/insertXMLPathHere/FoodPreferences", element);
+m_dietBeforeHospitalizationIncludingSnacks = GetTextNode("AdmissionHistory/insertXMLPathHere/DietBeforeHospitalizationIncludingSnacks", element);
+m_maritalOrPartnerStatus = GetTextNode("AdmissionHistory/insertXMLPathHere/MaritalOrPartnerStatus", element);
+m_familyProcesses = GetTextNode("AdmissionHistory/insertXMLPathHere/FamilyProcesses", element);
+m_caregiverRole = GetTextNode("AdmissionHistory/insertXMLPathHere/CaregiverRole", element);
+m_rolePerformance = GetTextNode("AdmissionHistory/insertXMLPathHere/RolePerformance", element);
+m_socialInteractions = GetTextNode("AdmissionHistory/insertXMLPathHere/SocialInteractions", element);
+m_willYouHaveAssistanceAfterDischarge = GetTextNode("AdmissionHistory/insertXMLPathHere/WillYouHaveAssistanceAfterDischarge", element);
+m_isPatientACandidateForNursingHomeCare = GetTextNode("AdmissionHistory/insertXMLPathHere/IsPatientACandidateForNursingHomeCare", element);
+m_isPatientHomelessOrUnidentified = GetTextNode("AdmissionHistory/insertXMLPathHere/IsPatientHomelessOrUnidentified", element);
+m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse = GetTextNode("AdmissionHistory/insertXMLPathHere/HaveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse", element);
+m_areYouAfraidOfYourPartnerOrSomeoneElse = GetTextNode("AdmissionHistory/insertXMLPathHere/AreYouAfraidOfYourPartnerOrSomeoneElse", element);
+m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear = GetTextNode("AdmissionHistory/insertXMLPathHere/HaveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear", element);
+m_isThereAnyPersonWhoThreatensYouOrHurtsYou = GetTextNode("AdmissionHistory/insertXMLPathHere/IsThereAnyPersonWhoThreatensYouOrHurtsYou", element);
+m_areTherePhysicalInjuriesConsistentWithThePatientsHistory = GetTextNode("AdmissionHistory/insertXMLPathHere/AreTherePhysicalInjuriesConsistentWithThePatientsHistory", element);
+m_haveYouBeenHospitalizedMoreThanTwiceInThePast2Months = GetTextNode("AdmissionHistory/insertXMLPathHere/HaveYouBeenHospitalizedMoreThanTwiceInThePast2Months", element);
+m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds", element);
+m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHome = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouCurrentlyUseOxygenOrMedicalEquipmentAtHome", element);
+m_wasPatientAdmittedFromAnotherHospitalOrFacility = GetTextNode("AdmissionHistory/insertXMLPathHere/WasPatientAdmittedFromAnotherHospitalOrFacility", element);
+m_doYouCurrentlyHaveAHomeHealthNurseVisitingYou = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouCurrentlyHaveAHomeHealthNurseVisitingYou", element);
+m_doYouAnticipateTheNeedForSelfInjectionsAtHome = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouAnticipateTheNeedForSelfInjectionsAtHome", element);
+m_doYouHaveAnyDifficultyObtainingYourMedications = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouHaveAnyDifficultyObtainingYourMedications", element);
+m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipment = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouAnticipateTheNeedForHealthServicesOrMedicalEquipment", element);
+m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital = GetTextNode("AdmissionHistory/insertXMLPathHere/AreThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital", element);
+m_doYouWantClergyToVisitYouWhileYouAreInTheHospital = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouWantClergyToVisitYouWhileYouAreInTheHospital", element);
+m_areYouCurrentlyExperiencingPain = GetTextNode("AdmissionHistory/insertXMLPathHere/AreYouCurrentlyExperiencingPain", element);
+m_hasThePatientHadPainInThePastThreeWeeks = GetTextNode("AdmissionHistory/insertXMLPathHere/HasThePatientHadPainInThePastThreeWeeks", element);
+m_intensityPainScore = GetTextNode("AdmissionHistory/insertXMLPathHere/IntensityPainScore", element);
+m_doYouHavePainNow = GetTextNode("AdmissionHistory/insertXMLPathHere/DoYouHavePainNow", element);
+m_locationOfPain = GetTextNode("AdmissionHistory/insertXMLPathHere/LocationOfPain", element);
+m_intensityOfPain = GetTextNode("AdmissionHistory/insertXMLPathHere/IntensityOfPain", element);
+m_qualityOfPain = GetTextNode("AdmissionHistory/insertXMLPathHere/QualityOfPain", element);
+m_painCare = GetTextNode("AdmissionHistory/insertXMLPathHere/PainCare", element);
+m_verifiedOrganDonationInAdmissionPacket = GetTextNode("AdmissionHistory/insertXMLPathHere/VerifiedOrganDonationInAdmissionPacket", element);
+m_verifiedConsentToTreatInAdmissionPacket = GetTextNode("AdmissionHistory/insertXMLPathHere/VerifiedConsentToTreatInAdmissionPacket", element);
+m_verifiedLivingWillInAdmissionPacket = GetTextNode("AdmissionHistory/insertXMLPathHere/VerifiedLivingWillInAdmissionPacket", element);
+m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures = GetTextNode("AdmissionHistory/insertXMLPathHere/InstructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures", element);
+m_instructedOnA = GetTextNode("AdmissionHistory/insertXMLPathHere/InstructedOnA", element);
+m_instructedOnB = GetTextNode("AdmissionHistory/insertXMLPathHere/InstructedOnB", element);
+m_instructedOnC = GetTextNode("AdmissionHistory/insertXMLPathHere/InstructedOnC", element);
+m_instructedOnD = GetTextNode("AdmissionHistory/insertXMLPathHere/InstructedOnD", element);
+m_informationGivenTo = GetTextNode("AdmissionHistory/insertXMLPathHere/InformationGivenTo", element);
+m_braceletsPlacedOnPatient = GetTextNode("AdmissionHistory/insertXMLPathHere/BraceletsPlacedOnPatient", element);
+/////
+asset builder Text variable list for copy paste into guicontrolscript section
+/////
+m_admittedFromText
+m_arrivedByText
+m_informationReceivedFromText
+m_cardiovascularProblemsText
+m_visualImpairmentText
+m_visualImpairment1Text
+m_musculoskeletalProblemsText
+m_otherHealthHistoryText
+m_willFamilyOrOtherBeStayingWithYouDuringHospitalizationText
+m_withWhomShouldWeCommunicateWhileYouAreHospitalizedText
+m_howLongHasTheProblemExistedText
+m_whyWereYouAdmittedToTheHospitalText
+m_canYouReadText
+m_canYouWriteText
+m_doYouHaveBarriersToLearningText
+m_primaryLanguageText
+m_doYouHaveALivingWillText
+m_isACopyOfYourLivingWillAvailableText
+m_howDoYouPreferInstructionsText
+m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItemsText
+m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHomeText
+m_informationReceivedFromText
+m_tetanusDiphtheriaPertusisText
+m_dateReceivedAText
+m_dateReceivedBText
+m_dateReceivedCText
+m_dateReceivedDText
+m_dateReceivedEText
+m_dateReceivedFText
+m_dateReceivedGText
+m_dateReceivedHText
+m_dateReceivedIText
+m_dateReceivedJText
+m_humanPapillomavirusText
+m_varicellaText
+m_zosterText
+m_measlesMumpsRubellaText
+m_influenzaText
+m_pneumococcalText
+m_hepatitisAText
+m_hepatitisBText
+m_meningococcalText
+m_streetRecreationalExcessivePrescriptionDrugUseText
+m_doYouLiveWithASmokerText
+m_smokerStatusText
+m_doYouDrinkAlcoholText
+m_howOftenDoYouDrinkText
+m_doesPatientHaveOrdersForPhysicalTherapyText
+m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOTText
+m_listBox25Text
+m_groomingText
+m_howDoYouFeelRightNowText
+m_overThePast2WeeksHaveYouFeltDownDepressedOrHopelessText
+m_overThePast2WeeksHaveYouHadLittleInterestInDoingThingsText
+m_orientedToTimeText
+m_orientedToPersonText
+m_orientedToPlaceText
+m_recall5ObjectNames3MinutesAfterMentionText
+m_canRecallPlaceOfBirthText
+m_canRecallYearBornText
+m_canRecallMothersMaidenNameText
+m_aBirdInTheHandIsWorthTwoInTheBushText
+m_aRollingStoneGathersNoMossText
+m_canCorrectlySayTheDaysOfTheWeekText
+m_canCorrectlySpellWorldBackwardsText
+m_howWellIsPatientMeetingSocialAndFamilyObligationsText
+m_whatAreYourPlansForTheFutureText
+m_canFollowSimpleDirectionsText
+m_canFollowComplexDirectionsText
+m_canCommunicateVerballyText
+m_unexplainedWeightLossGreaterThan10lbInTheLast6MonthsText
+m_lossOfAppetiteFor7DaysOrMoreText
+m_chewingOrSwallowingDifficultiesText
+m_nauseaVomitingOrDiarrheaForMoreThan7DaysText
+m_tubeFeedingOrTotalParenteralNutritionText
+m_dietInformationRequestedByPatientText
+m_totalScoreAText
+m_cachexiaOrPhysicalSignsOfWeightLossText
+m_headOrNeckOrMouthSurgeryText
+m_pressureUlcerOrOpenWoundsOrDrainingFistulaText
+m_tubeFeedingOrTotalParenteralNutritionText
+m_polytraumaOrMultipleFractureText
+m_feverInfectionSepsisText
+m_totalScoreBText
+m_foodPreferencesText
+m_dietBeforeHospitalizationIncludingSnacksText
+m_maritalOrPartnerStatusText
+m_familyProcessesText
+m_caregiverRoleText
+m_rolePerformanceText
+m_socialInteractionsText
+m_willYouHaveAssistanceAfterDischargeText
+m_isPatientACandidateForNursingHomeCareText
+m_isPatientHomelessOrUnidentifiedText
+m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElseText
+m_areYouAfraidOfYourPartnerOrSomeoneElseText
+m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYearText
+m_isThereAnyPersonWhoThreatensYouOrHurtsYouText
+m_areTherePhysicalInjuriesConsistentWithThePatientsHistoryText
+m_haveYouBeenHospitalizedMoreThanTwiceInThePast2MonthsText
+m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeedsText
+m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHomeText
+m_wasPatientAdmittedFromAnotherHospitalOrFacilityText
+m_doYouCurrentlyHaveAHomeHealthNurseVisitingYouText
+m_doYouAnticipateTheNeedForSelfInjectionsAtHomeText
+m_doYouHaveAnyDifficultyObtainingYourMedicationsText
+m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipmentText
+m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospitalText
+m_doYouWantClergyToVisitYouWhileYouAreInTheHospitalText
+m_areYouCurrentlyExperiencingPainText
+m_hasThePatientHadPainInThePastThreeWeeksText
+m_intensityPainScoreText
+m_doYouHavePainNowText
+m_locationOfPainText
+m_intensityOfPainText
+m_qualityOfPainText
+m_painCareText
+m_verifiedOrganDonationInAdmissionPacketText
+m_verifiedConsentToTreatInAdmissionPacketText
+m_verifiedLivingWillInAdmissionPacketText
+m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeaturesText
+m_instructedOnAText
+m_instructedOnBText
+m_instructedOnCText
+m_instructedOnDText
+m_informationGivenToText
+m_braceletsPlacedOnPatientText
+/////
+asset builder onInit get control variables
+/////
+m_admittedFromText = GetControl( "input_admittedFrom" );
+m_arrivedByText = GetControl( "input_arrivedBy" );
+m_informationReceivedFromText = GetControl( "input_informationReceivedFrom" );
+m_cardiovascularProblemsText = GetControl( "input_cardiovascularProblems" );
+m_visualImpairmentText = GetControl( "input_visualImpairment" );
+m_visualImpairment1Text = GetControl( "input_visualImpairment1" );
+m_musculoskeletalProblemsText = GetControl( "input_musculoskeletalProblems" );
+m_otherHealthHistoryText = GetControl( "input_otherHealthHistory" );
+m_willFamilyOrOtherBeStayingWithYouDuringHospitalizationText = GetControl( "input_willFamilyOrOtherBeStayingWithYouDuringHospitalization" );
+m_withWhomShouldWeCommunicateWhileYouAreHospitalizedText = GetControl( "input_withWhomShouldWeCommunicateWhileYouAreHospitalized" );
+m_howLongHasTheProblemExistedText = GetControl( "input_howLongHasTheProblemExisted" );
+m_whyWereYouAdmittedToTheHospitalText = GetControl( "input_whyWereYouAdmittedToTheHospital" );
+m_canYouReadText = GetControl( "input_canYouRead" );
+m_canYouWriteText = GetControl( "input_canYouWrite" );
+m_doYouHaveBarriersToLearningText = GetControl( "input_doYouHaveBarriersToLearning" );
+m_primaryLanguageText = GetControl( "input_primaryLanguage" );
+m_doYouHaveALivingWillText = GetControl( "input_doYouHaveALivingWill" );
+m_isACopyOfYourLivingWillAvailableText = GetControl( "input_isACopyOfYourLivingWillAvailable" );
+m_howDoYouPreferInstructionsText = GetControl( "input_howDoYouPreferInstructions" );
+m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItemsText = GetControl( "input_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems" );
+m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHomeText = GetControl( "input_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHome" );
+m_informationReceivedFromText = GetControl( "input_informationReceivedFrom" );
+m_tetanusDiphtheriaPertusisText = GetControl( "input_tetanusDiphtheriaPertusis" );
+m_dateReceivedAText = GetControl( "input_dateReceivedA" );
+m_dateReceivedBText = GetControl( "input_dateReceivedB" );
+m_dateReceivedCText = GetControl( "input_dateReceivedC" );
+m_dateReceivedDText = GetControl( "input_dateReceivedD" );
+m_dateReceivedEText = GetControl( "input_dateReceivedE" );
+m_dateReceivedFText = GetControl( "input_dateReceivedF" );
+m_dateReceivedGText = GetControl( "input_dateReceivedG" );
+m_dateReceivedHText = GetControl( "input_dateReceivedH" );
+m_dateReceivedIText = GetControl( "input_dateReceivedI" );
+m_dateReceivedJText = GetControl( "input_dateReceivedJ" );
+m_humanPapillomavirusText = GetControl( "input_humanPapillomavirus" );
+m_varicellaText = GetControl( "input_varicella" );
+m_zosterText = GetControl( "input_zoster" );
+m_measlesMumpsRubellaText = GetControl( "input_measlesMumpsRubella" );
+m_influenzaText = GetControl( "input_influenza" );
+m_pneumococcalText = GetControl( "input_pneumococcal" );
+m_hepatitisAText = GetControl( "input_hepatitisA" );
+m_hepatitisBText = GetControl( "input_hepatitisB" );
+m_meningococcalText = GetControl( "input_meningococcal" );
+m_streetRecreationalExcessivePrescriptionDrugUseText = GetControl( "input_streetRecreationalExcessivePrescriptionDrugUse" );
+m_doYouLiveWithASmokerText = GetControl( "input_doYouLiveWithASmoker" );
+m_smokerStatusText = GetControl( "input_smokerStatus" );
+m_doYouDrinkAlcoholText = GetControl( "input_doYouDrinkAlcohol" );
+m_howOftenDoYouDrinkText = GetControl( "input_howOftenDoYouDrink" );
+m_doesPatientHaveOrdersForPhysicalTherapyText = GetControl( "input_doesPatientHaveOrdersForPhysicalTherapy" );
+m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOTText = GetControl( "input_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT" );
+m_listBox25Text = GetControl( "input_listBox25" );
+m_groomingText = GetControl( "input_grooming" );
+m_howDoYouFeelRightNowText = GetControl( "input_howDoYouFeelRightNow" );
+m_overThePast2WeeksHaveYouFeltDownDepressedOrHopelessText = GetControl( "input_overThePast2WeeksHaveYouFeltDownDepressedOrHopeless" );
+m_overThePast2WeeksHaveYouHadLittleInterestInDoingThingsText = GetControl( "input_overThePast2WeeksHaveYouHadLittleInterestInDoingThings" );
+m_orientedToTimeText = GetControl( "input_orientedToTime" );
+m_orientedToPersonText = GetControl( "input_orientedToPerson" );
+m_orientedToPlaceText = GetControl( "input_orientedToPlace" );
+m_recall5ObjectNames3MinutesAfterMentionText = GetControl( "input_recall5ObjectNames3MinutesAfterMention" );
+m_canRecallPlaceOfBirthText = GetControl( "input_canRecallPlaceOfBirth" );
+m_canRecallYearBornText = GetControl( "input_canRecallYearBorn" );
+m_canRecallMothersMaidenNameText = GetControl( "input_canRecallMothersMaidenName" );
+m_aBirdInTheHandIsWorthTwoInTheBushText = GetControl( "input_aBirdInTheHandIsWorthTwoInTheBush" );
+m_aRollingStoneGathersNoMossText = GetControl( "input_aRollingStoneGathersNoMoss" );
+m_canCorrectlySayTheDaysOfTheWeekText = GetControl( "input_canCorrectlySayTheDaysOfTheWeek" );
+m_canCorrectlySpellWorldBackwardsText = GetControl( "input_canCorrectlySpellWorldBackwards" );
+m_howWellIsPatientMeetingSocialAndFamilyObligationsText = GetControl( "input_howWellIsPatientMeetingSocialAndFamilyObligations" );
+m_whatAreYourPlansForTheFutureText = GetControl( "input_whatAreYourPlansForTheFuture" );
+m_canFollowSimpleDirectionsText = GetControl( "input_canFollowSimpleDirections" );
+m_canFollowComplexDirectionsText = GetControl( "input_canFollowComplexDirections" );
+m_canCommunicateVerballyText = GetControl( "input_canCommunicateVerbally" );
+m_unexplainedWeightLossGreaterThan10lbInTheLast6MonthsText = GetControl( "input_unexplainedWeightLossGreaterThan10lbInTheLast6Months" );
+m_lossOfAppetiteFor7DaysOrMoreText = GetControl( "input_lossOfAppetiteFor7DaysOrMore" );
+m_chewingOrSwallowingDifficultiesText = GetControl( "input_chewingOrSwallowingDifficulties" );
+m_nauseaVomitingOrDiarrheaForMoreThan7DaysText = GetControl( "input_nauseaVomitingOrDiarrheaForMoreThan7Days" );
+m_tubeFeedingOrTotalParenteralNutritionText = GetControl( "input_tubeFeedingOrTotalParenteralNutrition" );
+m_dietInformationRequestedByPatientText = GetControl( "input_dietInformationRequestedByPatient" );
+m_totalScoreAText = GetControl( "input_totalScoreA" );
+m_cachexiaOrPhysicalSignsOfWeightLossText = GetControl( "input_cachexiaOrPhysicalSignsOfWeightLoss" );
+m_headOrNeckOrMouthSurgeryText = GetControl( "input_headOrNeckOrMouthSurgery" );
+m_pressureUlcerOrOpenWoundsOrDrainingFistulaText = GetControl( "input_pressureUlcerOrOpenWoundsOrDrainingFistula" );
+m_tubeFeedingOrTotalParenteralNutritionText = GetControl( "input_tubeFeedingOrTotalParenteralNutrition" );
+m_polytraumaOrMultipleFractureText = GetControl( "input_polytraumaOrMultipleFracture" );
+m_feverInfectionSepsisText = GetControl( "input_feverInfectionSepsis" );
+m_totalScoreBText = GetControl( "input_totalScoreB" );
+m_foodPreferencesText = GetControl( "input_foodPreferences" );
+m_dietBeforeHospitalizationIncludingSnacksText = GetControl( "input_dietBeforeHospitalizationIncludingSnacks" );
+m_maritalOrPartnerStatusText = GetControl( "input_maritalOrPartnerStatus" );
+m_familyProcessesText = GetControl( "input_familyProcesses" );
+m_caregiverRoleText = GetControl( "input_caregiverRole" );
+m_rolePerformanceText = GetControl( "input_rolePerformance" );
+m_socialInteractionsText = GetControl( "input_socialInteractions" );
+m_willYouHaveAssistanceAfterDischargeText = GetControl( "input_willYouHaveAssistanceAfterDischarge" );
+m_isPatientACandidateForNursingHomeCareText = GetControl( "input_isPatientACandidateForNursingHomeCare" );
+m_isPatientHomelessOrUnidentifiedText = GetControl( "input_isPatientHomelessOrUnidentified" );
+m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElseText = GetControl( "input_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse" );
+m_areYouAfraidOfYourPartnerOrSomeoneElseText = GetControl( "input_areYouAfraidOfYourPartnerOrSomeoneElse" );
+m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYearText = GetControl( "input_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear" );
+m_isThereAnyPersonWhoThreatensYouOrHurtsYouText = GetControl( "input_isThereAnyPersonWhoThreatensYouOrHurtsYou" );
+m_areTherePhysicalInjuriesConsistentWithThePatientsHistoryText = GetControl( "input_areTherePhysicalInjuriesConsistentWithThePatientsHistory" );
+m_haveYouBeenHospitalizedMoreThanTwiceInThePast2MonthsText = GetControl( "input_haveYouBeenHospitalizedMoreThanTwiceInThePast2Months" );
+m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeedsText = GetControl( "input_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds" );
+m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHomeText = GetControl( "input_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHome" );
+m_wasPatientAdmittedFromAnotherHospitalOrFacilityText = GetControl( "input_wasPatientAdmittedFromAnotherHospitalOrFacility" );
+m_doYouCurrentlyHaveAHomeHealthNurseVisitingYouText = GetControl( "input_doYouCurrentlyHaveAHomeHealthNurseVisitingYou" );
+m_doYouAnticipateTheNeedForSelfInjectionsAtHomeText = GetControl( "input_doYouAnticipateTheNeedForSelfInjectionsAtHome" );
+m_doYouHaveAnyDifficultyObtainingYourMedicationsText = GetControl( "input_doYouHaveAnyDifficultyObtainingYourMedications" );
+m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipmentText = GetControl( "input_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipment" );
+m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospitalText = GetControl( "input_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital" );
+m_doYouWantClergyToVisitYouWhileYouAreInTheHospitalText = GetControl( "input_doYouWantClergyToVisitYouWhileYouAreInTheHospital" );
+m_areYouCurrentlyExperiencingPainText = GetControl( "input_areYouCurrentlyExperiencingPain" );
+m_hasThePatientHadPainInThePastThreeWeeksText = GetControl( "input_hasThePatientHadPainInThePastThreeWeeks" );
+m_intensityPainScoreText = GetControl( "input_intensityPainScore" );
+m_doYouHavePainNowText = GetControl( "input_doYouHavePainNow" );
+m_locationOfPainText = GetControl( "input_locationOfPain" );
+m_intensityOfPainText = GetControl( "input_intensityOfPain" );
+m_qualityOfPainText = GetControl( "input_qualityOfPain" );
+m_painCareText = GetControl( "input_painCare" );
+m_verifiedOrganDonationInAdmissionPacketText = GetControl( "input_verifiedOrganDonationInAdmissionPacket" );
+m_verifiedConsentToTreatInAdmissionPacketText = GetControl( "input_verifiedConsentToTreatInAdmissionPacket" );
+m_verifiedLivingWillInAdmissionPacketText = GetControl( "input_verifiedLivingWillInAdmissionPacket" );
+m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeaturesText = GetControl( "input_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures" );
+m_instructedOnAText = GetControl( "input_instructedOnA" );
+m_instructedOnBText = GetControl( "input_instructedOnB" );
+m_instructedOnCText = GetControl( "input_instructedOnC" );
+m_instructedOnDText = GetControl( "input_instructedOnD" );
+m_informationGivenToText = GetControl( "input_informationGivenTo" );
+m_braceletsPlacedOnPatientText = GetControl( "input_braceletsPlacedOnPatient" );
+/////
+asset builder onInit set textbox equal to var
+/////
+m_admittedFromText.Text = MedicalRecord.AdmissionHistory.m_admittedFrom;
+m_arrivedByText.Text = MedicalRecord.AdmissionHistory.m_arrivedBy;
+m_informationReceivedFromText.Text = MedicalRecord.AdmissionHistory.m_informationReceivedFrom;
+m_cardiovascularProblemsText.Text = MedicalRecord.AdmissionHistory.m_cardiovascularProblems;
+m_visualImpairmentText.Text = MedicalRecord.AdmissionHistory.m_visualImpairment;
+m_visualImpairment1Text.Text = MedicalRecord.AdmissionHistory.m_visualImpairment1;
+m_musculoskeletalProblemsText.Text = MedicalRecord.AdmissionHistory.m_musculoskeletalProblems;
+m_otherHealthHistoryText.Text = MedicalRecord.AdmissionHistory.m_otherHealthHistory;
+m_willFamilyOrOtherBeStayingWithYouDuringHospitalizationText.Text = MedicalRecord.AdmissionHistory.m_willFamilyOrOtherBeStayingWithYouDuringHospitalization;
+m_withWhomShouldWeCommunicateWhileYouAreHospitalizedText.Text = MedicalRecord.AdmissionHistory.m_withWhomShouldWeCommunicateWhileYouAreHospitalized;
+m_howLongHasTheProblemExistedText.Text = MedicalRecord.AdmissionHistory.m_howLongHasTheProblemExisted;
+m_whyWereYouAdmittedToTheHospitalText.Text = MedicalRecord.AdmissionHistory.m_whyWereYouAdmittedToTheHospital;
+m_canYouReadText.Text = MedicalRecord.AdmissionHistory.m_canYouRead;
+m_canYouWriteText.Text = MedicalRecord.AdmissionHistory.m_canYouWrite;
+m_doYouHaveBarriersToLearningText.Text = MedicalRecord.AdmissionHistory.m_doYouHaveBarriersToLearning;
+m_primaryLanguageText.Text = MedicalRecord.AdmissionHistory.m_primaryLanguage;
+m_doYouHaveALivingWillText.Text = MedicalRecord.AdmissionHistory.m_doYouHaveALivingWill;
+m_isACopyOfYourLivingWillAvailableText.Text = MedicalRecord.AdmissionHistory.m_isACopyOfYourLivingWillAvailable;
+m_howDoYouPreferInstructionsText.Text = MedicalRecord.AdmissionHistory.m_howDoYouPreferInstructions;
+m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItemsText.Text = MedicalRecord.AdmissionHistory.m_doYouHaveAnyKnownAllergiesToDrugsFoodOrEnvironmentalItems;
+m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHomeText.Text = MedicalRecord.AdmissionHistory.m_doYouTakeAnyMedicationsVitaminsOrSupplementsAtHome;
+m_informationReceivedFromText.Text = MedicalRecord.AdmissionHistory.m_informationReceivedFrom;
+m_tetanusDiphtheriaPertusisText.Text = MedicalRecord.AdmissionHistory.m_tetanusDiphtheriaPertusis;
+m_dateReceivedAText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedA;
+m_dateReceivedBText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedB;
+m_dateReceivedCText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedC;
+m_dateReceivedDText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedD;
+m_dateReceivedEText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedE;
+m_dateReceivedFText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedF;
+m_dateReceivedGText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedG;
+m_dateReceivedHText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedH;
+m_dateReceivedIText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedI;
+m_dateReceivedJText.Text = MedicalRecord.AdmissionHistory.m_dateReceivedJ;
+m_humanPapillomavirusText.Text = MedicalRecord.AdmissionHistory.m_humanPapillomavirus;
+m_varicellaText.Text = MedicalRecord.AdmissionHistory.m_varicella;
+m_zosterText.Text = MedicalRecord.AdmissionHistory.m_zoster;
+m_measlesMumpsRubellaText.Text = MedicalRecord.AdmissionHistory.m_measlesMumpsRubella;
+m_influenzaText.Text = MedicalRecord.AdmissionHistory.m_influenza;
+m_pneumococcalText.Text = MedicalRecord.AdmissionHistory.m_pneumococcal;
+m_hepatitisAText.Text = MedicalRecord.AdmissionHistory.m_hepatitisA;
+m_hepatitisBText.Text = MedicalRecord.AdmissionHistory.m_hepatitisB;
+m_meningococcalText.Text = MedicalRecord.AdmissionHistory.m_meningococcal;
+m_streetRecreationalExcessivePrescriptionDrugUseText.Text = MedicalRecord.AdmissionHistory.m_streetRecreationalExcessivePrescriptionDrugUse;
+m_doYouLiveWithASmokerText.Text = MedicalRecord.AdmissionHistory.m_doYouLiveWithASmoker;
+m_smokerStatusText.Text = MedicalRecord.AdmissionHistory.m_smokerStatus;
+m_doYouDrinkAlcoholText.Text = MedicalRecord.AdmissionHistory.m_doYouDrinkAlcohol;
+m_howOftenDoYouDrinkText.Text = MedicalRecord.AdmissionHistory.m_howOftenDoYouDrink;
+m_doesPatientHaveOrdersForPhysicalTherapyText.Text = MedicalRecord.AdmissionHistory.m_doesPatientHaveOrdersForPhysicalTherapy;
+m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOTText.Text = MedicalRecord.AdmissionHistory.m_doesPatientHaveAConditionOrOrderThatRestrictsParticipationInOT;
+m_listBox25Text.Text = MedicalRecord.AdmissionHistory.m_listBox25;
+m_groomingText.Text = MedicalRecord.AdmissionHistory.m_grooming;
+m_howDoYouFeelRightNowText.Text = MedicalRecord.AdmissionHistory.m_howDoYouFeelRightNow;
+m_overThePast2WeeksHaveYouFeltDownDepressedOrHopelessText.Text = MedicalRecord.AdmissionHistory.m_overThePast2WeeksHaveYouFeltDownDepressedOrHopeless;
+m_overThePast2WeeksHaveYouHadLittleInterestInDoingThingsText.Text = MedicalRecord.AdmissionHistory.m_overThePast2WeeksHaveYouHadLittleInterestInDoingThings;
+m_orientedToTimeText.Text = MedicalRecord.AdmissionHistory.m_orientedToTime;
+m_orientedToPersonText.Text = MedicalRecord.AdmissionHistory.m_orientedToPerson;
+m_orientedToPlaceText.Text = MedicalRecord.AdmissionHistory.m_orientedToPlace;
+m_recall5ObjectNames3MinutesAfterMentionText.Text = MedicalRecord.AdmissionHistory.m_recall5ObjectNames3MinutesAfterMention;
+m_canRecallPlaceOfBirthText.Text = MedicalRecord.AdmissionHistory.m_canRecallPlaceOfBirth;
+m_canRecallYearBornText.Text = MedicalRecord.AdmissionHistory.m_canRecallYearBorn;
+m_canRecallMothersMaidenNameText.Text = MedicalRecord.AdmissionHistory.m_canRecallMothersMaidenName;
+m_aBirdInTheHandIsWorthTwoInTheBushText.Text = MedicalRecord.AdmissionHistory.m_aBirdInTheHandIsWorthTwoInTheBush;
+m_aRollingStoneGathersNoMossText.Text = MedicalRecord.AdmissionHistory.m_aRollingStoneGathersNoMoss;
+m_canCorrectlySayTheDaysOfTheWeekText.Text = MedicalRecord.AdmissionHistory.m_canCorrectlySayTheDaysOfTheWeek;
+m_canCorrectlySpellWorldBackwardsText.Text = MedicalRecord.AdmissionHistory.m_canCorrectlySpellWorldBackwards;
+m_howWellIsPatientMeetingSocialAndFamilyObligationsText.Text = MedicalRecord.AdmissionHistory.m_howWellIsPatientMeetingSocialAndFamilyObligations;
+m_whatAreYourPlansForTheFutureText.Text = MedicalRecord.AdmissionHistory.m_whatAreYourPlansForTheFuture;
+m_canFollowSimpleDirectionsText.Text = MedicalRecord.AdmissionHistory.m_canFollowSimpleDirections;
+m_canFollowComplexDirectionsText.Text = MedicalRecord.AdmissionHistory.m_canFollowComplexDirections;
+m_canCommunicateVerballyText.Text = MedicalRecord.AdmissionHistory.m_canCommunicateVerbally;
+m_unexplainedWeightLossGreaterThan10lbInTheLast6MonthsText.Text = MedicalRecord.AdmissionHistory.m_unexplainedWeightLossGreaterThan10lbInTheLast6Months;
+m_lossOfAppetiteFor7DaysOrMoreText.Text = MedicalRecord.AdmissionHistory.m_lossOfAppetiteFor7DaysOrMore;
+m_chewingOrSwallowingDifficultiesText.Text = MedicalRecord.AdmissionHistory.m_chewingOrSwallowingDifficulties;
+m_nauseaVomitingOrDiarrheaForMoreThan7DaysText.Text = MedicalRecord.AdmissionHistory.m_nauseaVomitingOrDiarrheaForMoreThan7Days;
+m_tubeFeedingOrTotalParenteralNutritionText.Text = MedicalRecord.AdmissionHistory.m_tubeFeedingOrTotalParenteralNutrition;
+m_dietInformationRequestedByPatientText.Text = MedicalRecord.AdmissionHistory.m_dietInformationRequestedByPatient;
+m_totalScoreAText.Text = MedicalRecord.AdmissionHistory.m_totalScoreA;
+m_cachexiaOrPhysicalSignsOfWeightLossText.Text = MedicalRecord.AdmissionHistory.m_cachexiaOrPhysicalSignsOfWeightLoss;
+m_headOrNeckOrMouthSurgeryText.Text = MedicalRecord.AdmissionHistory.m_headOrNeckOrMouthSurgery;
+m_pressureUlcerOrOpenWoundsOrDrainingFistulaText.Text = MedicalRecord.AdmissionHistory.m_pressureUlcerOrOpenWoundsOrDrainingFistula;
+m_tubeFeedingOrTotalParenteralNutritionText.Text = MedicalRecord.AdmissionHistory.m_tubeFeedingOrTotalParenteralNutrition;
+m_polytraumaOrMultipleFractureText.Text = MedicalRecord.AdmissionHistory.m_polytraumaOrMultipleFracture;
+m_feverInfectionSepsisText.Text = MedicalRecord.AdmissionHistory.m_feverInfectionSepsis;
+m_totalScoreBText.Text = MedicalRecord.AdmissionHistory.m_totalScoreB;
+m_foodPreferencesText.Text = MedicalRecord.AdmissionHistory.m_foodPreferences;
+m_dietBeforeHospitalizationIncludingSnacksText.Text = MedicalRecord.AdmissionHistory.m_dietBeforeHospitalizationIncludingSnacks;
+m_maritalOrPartnerStatusText.Text = MedicalRecord.AdmissionHistory.m_maritalOrPartnerStatus;
+m_familyProcessesText.Text = MedicalRecord.AdmissionHistory.m_familyProcesses;
+m_caregiverRoleText.Text = MedicalRecord.AdmissionHistory.m_caregiverRole;
+m_rolePerformanceText.Text = MedicalRecord.AdmissionHistory.m_rolePerformance;
+m_socialInteractionsText.Text = MedicalRecord.AdmissionHistory.m_socialInteractions;
+m_willYouHaveAssistanceAfterDischargeText.Text = MedicalRecord.AdmissionHistory.m_willYouHaveAssistanceAfterDischarge;
+m_isPatientACandidateForNursingHomeCareText.Text = MedicalRecord.AdmissionHistory.m_isPatientACandidateForNursingHomeCare;
+m_isPatientHomelessOrUnidentifiedText.Text = MedicalRecord.AdmissionHistory.m_isPatientHomelessOrUnidentified;
+m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElseText.Text = MedicalRecord.AdmissionHistory.m_haveYouBeenEmotionallyOrPhysicallyAbusedByPartnerOrSomeoneElse;
+m_areYouAfraidOfYourPartnerOrSomeoneElseText.Text = MedicalRecord.AdmissionHistory.m_areYouAfraidOfYourPartnerOrSomeoneElse;
+m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYearText.Text = MedicalRecord.AdmissionHistory.m_haveYouBeenHitSlappedKickedOrPhysicallyHurtBySomeoneInThePastYear;
+m_isThereAnyPersonWhoThreatensYouOrHurtsYouText.Text = MedicalRecord.AdmissionHistory.m_isThereAnyPersonWhoThreatensYouOrHurtsYou;
+m_areTherePhysicalInjuriesConsistentWithThePatientsHistoryText.Text = MedicalRecord.AdmissionHistory.m_areTherePhysicalInjuriesConsistentWithThePatientsHistory;
+m_haveYouBeenHospitalizedMoreThanTwiceInThePast2MonthsText.Text = MedicalRecord.AdmissionHistory.m_haveYouBeenHospitalizedMoreThanTwiceInThePast2Months;
+m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeedsText.Text = MedicalRecord.AdmissionHistory.m_doYouAnticipateTheNeedForHomeInfusionOrEnternalNeeds;
+m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHomeText.Text = MedicalRecord.AdmissionHistory.m_doYouCurrentlyUseOxygenOrMedicalEquipmentAtHome;
+m_wasPatientAdmittedFromAnotherHospitalOrFacilityText.Text = MedicalRecord.AdmissionHistory.m_wasPatientAdmittedFromAnotherHospitalOrFacility;
+m_doYouCurrentlyHaveAHomeHealthNurseVisitingYouText.Text = MedicalRecord.AdmissionHistory.m_doYouCurrentlyHaveAHomeHealthNurseVisitingYou;
+m_doYouAnticipateTheNeedForSelfInjectionsAtHomeText.Text = MedicalRecord.AdmissionHistory.m_doYouAnticipateTheNeedForSelfInjectionsAtHome;
+m_doYouHaveAnyDifficultyObtainingYourMedicationsText.Text = MedicalRecord.AdmissionHistory.m_doYouHaveAnyDifficultyObtainingYourMedications;
+m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipmentText.Text = MedicalRecord.AdmissionHistory.m_doYouAnticipateTheNeedForHealthServicesOrMedicalEquipment;
+m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospitalText.Text = MedicalRecord.AdmissionHistory.m_areThereReligiousCulturalOrEthnicConcernsWeShouldConsiderWhileYouAreInTheHospital;
+m_doYouWantClergyToVisitYouWhileYouAreInTheHospitalText.Text = MedicalRecord.AdmissionHistory.m_doYouWantClergyToVisitYouWhileYouAreInTheHospital;
+m_areYouCurrentlyExperiencingPainText.Text = MedicalRecord.AdmissionHistory.m_areYouCurrentlyExperiencingPain;
+m_hasThePatientHadPainInThePastThreeWeeksText.Text = MedicalRecord.AdmissionHistory.m_hasThePatientHadPainInThePastThreeWeeks;
+m_intensityPainScoreText.Text = MedicalRecord.AdmissionHistory.m_intensityPainScore;
+m_doYouHavePainNowText.Text = MedicalRecord.AdmissionHistory.m_doYouHavePainNow;
+m_locationOfPainText.Text = MedicalRecord.AdmissionHistory.m_locationOfPain;
+m_intensityOfPainText.Text = MedicalRecord.AdmissionHistory.m_intensityOfPain;
+m_qualityOfPainText.Text = MedicalRecord.AdmissionHistory.m_qualityOfPain;
+m_painCareText.Text = MedicalRecord.AdmissionHistory.m_painCare;
+m_verifiedOrganDonationInAdmissionPacketText.Text = MedicalRecord.AdmissionHistory.m_verifiedOrganDonationInAdmissionPacket;
+m_verifiedConsentToTreatInAdmissionPacketText.Text = MedicalRecord.AdmissionHistory.m_verifiedConsentToTreatInAdmissionPacket;
+m_verifiedLivingWillInAdmissionPacketText.Text = MedicalRecord.AdmissionHistory.m_verifiedLivingWillInAdmissionPacket;
+m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeaturesText.Text = MedicalRecord.AdmissionHistory.m_instructedOnAllUnitPoliciesAndProceduresAndOrientedToAllRoomFeatures;
+m_instructedOnAText.Text = MedicalRecord.AdmissionHistory.m_instructedOnA;
+m_instructedOnBText.Text = MedicalRecord.AdmissionHistory.m_instructedOnB;
+m_instructedOnCText.Text = MedicalRecord.AdmissionHistory.m_instructedOnC;
+m_instructedOnDText.Text = MedicalRecord.AdmissionHistory.m_instructedOnD;
+m_informationGivenToText.Text = MedicalRecord.AdmissionHistory.m_informationGivenTo;
+m_braceletsPlacedOnPatientText.Text = MedicalRecord.AdmissionHistory.m_braceletsPlacedOnPatient;
